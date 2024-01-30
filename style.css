@@ -2,8 +2,7 @@ header {
     background-color: hsl(203, 17%, 66%);
     color: rgb(60, 60, 84);
     text-align: center;
-    padding: 15px;
-    margin-bottom: 15px;
+    padding: 20px;
 }
 
 ul {
@@ -21,12 +20,13 @@ li {
 
 a {
     flex: 1;
+    border-radius: 2px;
     background-color: hsl(203, 17%, 66%);
     color: rgb(60, 60, 84);
     padding: 0.5rem;
     text-align: center;
     text-decoration: none;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3)
 }
 
 a:hover,
@@ -34,6 +34,7 @@ a:focus {
     background-color: rgb(60, 60, 84);
     color: hsl(203, 17%, 66%);
     font-size: 20px;
+    box-shadow: 0 5px 7px 0 rgb(0, 0, 0, 0.3)
   }
 
 div:nth-child(1):hover,
@@ -58,6 +59,6 @@ footer {
     color: rgb(60, 60, 84);
     text-align: center;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     border-top: 1px solid rgb(60, 60, 84);
 }
