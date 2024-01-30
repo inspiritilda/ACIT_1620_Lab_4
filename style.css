@@ -1,3 +1,51 @@
 header {
-    background-color:v ;
+    background-color: hsl(203, 17%, 66%);
+    color: rgb(60, 60, 84);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    float: none;
+    display: flex;
+    gap: 0.5rem;
+    text-align: left;
+    padding-left: 0;
+}
+
+li {
+    padding-right: 15px;
+}
+
+a {
+    flex: 1;
+    background-color: hsl(203, 17%, 66%);
+    color: rgb(60, 60, 84);
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
+}
+
+a:hover,
+a:focus {
+    background-color: rgb(60, 60, 84);
+    color: hsl(203, 17%, 66%);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
+  }
+
+main {
+    background-color: white;
+    color: rgb(60, 60, 84);
+}
+
+footer {
+    background-color: white;
+    color: rgb(60, 60, 84);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid rgb(60, 60, 84);
 }
