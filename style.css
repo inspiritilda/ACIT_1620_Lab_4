@@ -33,7 +33,19 @@ a:hover,
 a:focus {
     background-color: rgb(60, 60, 84);
     color: hsl(203, 17%, 66%);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
+    font-size: 20px;
+  }
+
+div:nth-child(1):hover,
+div:nth-child(1):focus {
+    background-color: rgb(60, 60, 84);
+    color: hsl(203, 17%, 66%);
+}
+
+div:nth-child(2):hover,
+div:nth-child(2):focus {
+    background-color: rgb(60, 60, 84);
+    color: hsl(203, 17%, 66%);
   }
 
 main {
