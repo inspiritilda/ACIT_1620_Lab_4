@@ -5,7 +5,7 @@
 
 header {
     background-color: hsl(var(--base-color), 90%);
-    color: hsl(var(--base-font-color), 0%);
+    color: hsl(var(--base-font-color), 30%);
     text-align: center;
     padding: 20px;
 }
@@ -24,24 +24,21 @@ li {
 }
 
 a {
-    transition: 1s ease;
-}
-
-a {
     flex: 1;
     border-radius: 2px;
     background-color: hsl(var(--base-color), 90%);
-    color: hsl(var(--base-font-color), 0%);
+    color: hsl(var(--base-font-color), 40%);
     padding: 0.5rem;
     text-align: center;
     text-decoration: none;
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3)
+    transition: 1s ease;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
 }
 
 a:hover,
 a:focus {
-    background-color: hsl(var(--base-color), 80%);
-    color: white;
+    background-color: hsl(var(--base-color), 70%);
+    color: hsl(var(--base-font-color), 100%);
     font-size: 20px;
     transition: 1s, boxshadow 1s ease;
   }
@@ -55,7 +52,7 @@ div:nth-child(1):hover,
 div:nth-child(1):focus {
     border-radius: 2px;
     background-color: hsl(var(--base-color), 80%);
-    color: white;
+    color: hsl(var(--base-font-color), 100%);
     padding: 1rem;
     transition: 1s ease;
 }
@@ -64,7 +61,7 @@ div:nth-child(2):hover,
 div:nth-child(2):focus {
     border-radius: 2px;
     background-color: hsl(var(--base-color), 80%);
-    color: white;
+    color: hsl(var(--base-font-color), 100%);
     padding: 1rem;
     transition: 1s ease;
   }
