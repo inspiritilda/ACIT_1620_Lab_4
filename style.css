@@ -1,10 +1,11 @@
 :root {
     --base-color: 200, 50%;
+    --base-font-color: 200, 100%;
 }
 
 header {
     background-color: hsl(var(--base-color), 90%);
-    color: hsl(240, 17%, 28%);
+    color: hsl(var(--base-font-color), 0%);
     text-align: center;
     padding: 20px;
 }
@@ -26,7 +27,7 @@ a {
     flex: 1;
     border-radius: 2px;
     background-color: hsl(var(--base-color), 90%);
-    color: hsl(240, 17%, 28%);
+    color: hsl(var(--base-font-color), 0%);
     padding: 0.5rem;
     text-align: center;
     text-decoration: none;
@@ -35,8 +36,8 @@ a {
 
 a:hover,
 a:focus {
-    background-color: hsl(240, 17%, 28%);
-    color: hsl(203, 17%, 66%);
+    background-color: hsl(var(--base-color), 80%);
+    color: white;
     font-size: 20px;
     transition-delay: 0.3s
   }
@@ -44,8 +45,8 @@ a:focus {
 div:nth-child(1):hover,
 div:nth-child(1):focus {
     border-radius: 2px;
-    background-color: hsl(240, 17%, 28%);
-    color: hsl(203, 17%, 66%);
+    background-color: hsl(var(--base-color), 80%);
+    color: white;
     padding: 1rem;
     transition-delay: 0.3s;
 }
@@ -53,20 +54,20 @@ div:nth-child(1):focus {
 div:nth-child(2):hover,
 div:nth-child(2):focus {
     border-radius: 2px;
-    background-color: hsl(240, 17%, 28%);
-    color: hsl(203, 17%, 66%);
+    background-color: hsl(var(--base-color), 80%);
+    color: white;
     padding: 1rem;
     transition-delay: 0.3s;
   }
 
 main {
-    background-color: white;
-    color: hsl(240, 17%, 28%);
+    background-color: hsl(var(--base-color), 100%);
+    color: hsl(var(--base-font-color), 0%);
 }
 
 footer {
     background-color: hsl(var(--base-color), 100%);
-    color: hsl(240, 17%, 28%);
+    color: hsl(var(--base-font-color), 0%);
     text-align: center;
     padding: 20px;
     margin-bottom: 0;
